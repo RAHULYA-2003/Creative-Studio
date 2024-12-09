@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+	<title></title>
+</head>
+<body>
+     <section class="hero about-header">
+		<nav>
+			<a href="index.html"><img src="logo.png" class="logo"></a>
+			<div class="nav-links" id="navLinks">
+			<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="Protfolio.html">PROTFOLIO</a></li>
+					<li><a href="Term.html">TERM</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+					<button class="btn switch">Sign up</button>
+				</ul>
+			</div>
+			<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<div class="side-bar">
+			<img src="menu.png" class="menu">
+			<div class="social-links">
+				<img src="fb.png">
+				<img src="ig.png">
+				<img src="tw.png">
+			</div>
+			<div class="useful-links">
+				<img src="share.png">
+				<img src="info.png">
+			</div>
+		</div>
+           <div class="bubbles">
+			<img src="bubble.png">
+			<img src="bubble.png">
+			<img src="bubble.png">
+			<img src="bubble.png">
+			<img src="bubble.png">
+			<img src="bubble.png">
+			<img src="bubble.png">
+		</div>
+		<div class="content-about">
+			<h1>CONTACT</h1>
+			<div class="div-btn">
+			     <button class="btn button">Explore </button>
+			     <button class="btn button ">Contact us</button>
+		    </div>
+		</div>
+		
+     </section>
+                                      <!-- --------------contact-------- -->
+
+<section class="contact-us">
+    	<div class="row">
+    		<div class="contact-col">
+    		    <div>
+    			    <i class="fa-solid fa-house"></i>
+    			    <span>
+    				    <h5>Pallapatti Road,ABC Buliding</h5>
+    				     <p>Aravakurichi,Karur</p>
+    			    </span>
+    			</div>
+    			<div>
+    		        <i class="fa-solid fa-phone"></i>
+    		        <span>
+    			        <h5>+1 0123456789</h5>
+    			        <p>Monday to Saturday 10AM to 6PM</p>
+    		        </span>
+    		    </div>
+    		    <div>
+    		        <i class="fa-regular fa-envelope"></i>
+    		        <span>
+    			        <h5>rrahulya817@gmail.com</h5>
+    			        <p>Email us your query</p>
+    		        </span>
+    		    </div>
+    		</div>
+    		<div class="contact-col">
+    			<form action="">
+    				<input type="text" placeholder="Enter your name" required>
+    				<input type="email" placeholder="Enter email address" required>
+    				<input type="text" placeholder="Enter your subject" required>
+    				<textarea rows="8" placeholder="Message" required></textarea>
+    				 <button class=" button btn1 ">Send Message</button>
+    				
+    				
+    			</form>
+    		</div>
+    	</div>
+    	   
+    </section>
+
+    
+                                            
+
+ 
+                       <!-- -------------------footer--------------- -->
+
+     <section class="footer">
+	     <h1>Find us on Social Media</h1>
+	     <div class="footer-background">
+	     	<div class="footer-about">
+	     	     <h3>ABOUT US</h3>
+	     	     <br>
+	     	     <hr>
+	     	     <p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Beatae nobis fugit maxime<br> deleniti minus optio accusamus, quam<br> maiores explicabo sunt.<br><br>
+	     	     Copyright 2045 © DevCRUD</p>
+	         </div>
+	         <div class="footer-about">
+	     	     <h3>USEFUL LINKS</h3>
+	     	     <br>
+	     	     <hr>
+	     	         <ul>
+                            <li><a href="index.html">HOME</a></li>
+					   <li><a href="about.html">ABOUT</a></li>
+					    <li><a href="Protfolio.html">PROTFOLIO</a></li>
+					    <li><a href="Term.html">TERM</a></li>
+					    <li><a href="contact.html">CONTACT US</a></li>
+	                    </ul>
+			</div>
+	           <div class="footer-about">
+	     	     <h3>USEFUL LINKS</h3>
+	     	     <br>
+	     	     <hr>
+	     	     <p>Contact us and we'll get back to you within <br>24 hours.<br><i class="fa-solid fa-location-dot"></i> 12345 Fake ST NoWhere AB Country<br>
+	     	     <i class="fa-solid fa-envelopes-bulk"></i>rahulya@123.com</p>
+	     	     
+	     	     <p class="icon">
+	     	     	<i class="fa-brands fa-x-twitter"></i>
+	     	     	<i class="fa-brands fa-youtube"></i>
+	     	     	<i class="fa-brands fa-instagram"></i>
+	     	     	<i class="fa-brands fa-linkedin-in"></i>
+	     	     	<i class="fa-brands fa-facebook"></i>
+	     	     </p>
+	         </div>
+
+	     </div>
+    	     
+     </section>
+
+
+
+      <script>
+		
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+        }
+        function hideMenu(){
+			navLinks.style.right = "-200px";
+        }
+	 </script>
+
+</body>
+</html>
